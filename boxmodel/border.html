@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      box-sizing: border-box;
+    }
+
+    .segitiga {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 50px solid red;
+      border-top: 50px solid red;
+    }
+  </style>
+  <body>
+    <h1>Border</h1>
+    <p>Understanding borders is essential for web design.</p>
+
+    <div class="box">
+      <p>This is a box with a border.</p>
+    </div>
+
+    <div class="segitiga"></div>
+  </body>
+</html>
